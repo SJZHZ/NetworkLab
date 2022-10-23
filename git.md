@@ -22,7 +22,7 @@ git clone git@github.com:N2Sys-EDU/lab1-myftp-SJZHZ.git
 git submodule update --init
 git submodule update --remote
 ```
-## 第六次修改：完成lab1，增加了data文件夹用于存放lab数据
+## 第六次修改：完成lab1（push自动测试），增加了data文件夹用于存放lab数据
 ```zsh
 git add .
 git commit -am "Update"
