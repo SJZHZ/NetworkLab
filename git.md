@@ -14,8 +14,6 @@ git submodule add git@github.com:N2Sys-EDU/lab0-introduction-SJZHZ.git
 ## 第四次修改：添加lab1子模块
 ```bash
 git submodule add git@github.com:N2Sys-EDU/lab1-myftp-SJZHZ.git
-#或
-git clone git@github.com:N2Sys-EDU/lab1-myftp-SJZHZ.git
 ```
 ## 第五次修改：加载lab1的test_local子模块
 ```zsh
@@ -28,3 +26,4 @@ git add .
 git commit -am "Update"
 git push
 ```
+## 第七次修改：加载lab2子模块

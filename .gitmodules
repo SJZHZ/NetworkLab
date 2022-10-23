@@ -4,3 +4,6 @@
 [submodule "lab1-myftp-SJZHZ"]
 	path = lab1-myftp-SJZHZ
 	url = git@github.com:N2Sys-EDU/lab1-myftp-SJZHZ.git
+[submodule "lab2-rtp-SJZHZ"]
+	path = lab2-rtp-SJZHZ
+	url = git@github.com:N2Sys-EDU/lab2-rtp-SJZHZ.git
