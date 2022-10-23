@@ -1,4 +1,5 @@
-# lab1 myFTP
+# lab1-myFTP
+by 1900017702 ZY
 ## 说明
 详细信息请参见 [lab1 documents](https://edu.n2sys.cn/#/tut_lab/lv1/README)
 
@@ -38,7 +39,7 @@ add_executable(ftp_client ftp_client.c myFTP_basic.h)
 ## 操作
 1. 获取本地测试方法（在test_local子模块中）
 ```txt
-根目录下提供了两个标准样例程序的可执行文件
+根目录下提供了两个样例程序的可执行文件
     ftp_server_std
     ftp_client_std
 ./build文件夹中提供了自动测试程序的源代码（输入make编译出可执行文件）
@@ -64,7 +65,7 @@ add_executable(ftp_client ftp_client.c myFTP_basic.h)
     ftp_test
     ftp_server
     ftp_client
-输入./ftp_test运行自动测试程序，在标准输出中得到测试结果（注意权限问题）
+输入./ftp_test运行自动测试程序，在标准输出中得到测试结果（注意权限问题，chmod）
 ```
 
 ## 备注
@@ -81,3 +82,5 @@ add_executable(ftp_client ftp_client.c myFTP_basic.h)
     > EPOLLIN：只要缓冲区还未读取完，就会一直触发
 7. 重复功能先复制粘贴以便快速开发，等测试通过之后再提取为统一API以便简化结构<br>
    （也可以先设计好统一API，再直接调用）
+8. 运行样例程序作为对端进行手动测试，方便单侧开发。两侧分别开发完成后，再手动测试对齐
+9. 使用argc作为main函数的条件分支，可以兼容自动测试（有参数）和手动测试（无参数）
