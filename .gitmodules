@@ -7,3 +7,6 @@
 [submodule "lab2-rtp-SJZHZ"]
 	path = lab2-rtp-SJZHZ
 	url = git@github.com:N2Sys-EDU/lab2-rtp-SJZHZ.git
+[submodule "2023-lab0-introduction-SJZHZ"]
+	path = 2023-lab0-introduction-SJZHZ
+	url = git@github.com:N2Sys-EDU/2023-lab0-introduction-SJZHZ.git
