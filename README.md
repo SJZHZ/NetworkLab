@@ -9,9 +9,14 @@ by SJZHZ
 - Markdown
     ```txt
     README.md: 本文档
-    git.md: 初次学习git操作，重要命令留档
+    Public
+        2023
+            lab0.md
+        2022
+            git.md
+            lab1.md
     ```
-- submodule(private)
+- submodule(Private)
     ```txt
     2023
         2023-lab0-introduction-SJZHZ: CMake & Git
@@ -27,8 +32,13 @@ by SJZHZ
     ```txt
     .
     |-- 2023-lab0-introduction-SJZHZ
+    |-- Public
+    |   |-- 2022
+    |   |   |-- git.md
+    |   |   `-- lab1.md
+    |   `-- 2023
+    |       `-- lab0.md
     |-- README.md
-    |-- git.md
     |-- lab0-introduction-SJZHZ
     |-- lab1-myftp-SJZHZ
     `-- lab2-rtp-SJZHZ
