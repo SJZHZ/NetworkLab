@@ -13,3 +13,6 @@
 [submodule "2023-lab1-myftp-SJZHZ"]
 	path = 2023-lab1-myftp-SJZHZ
 	url = https://github.com/N2Sys-EDU/2023-lab1-myftp-SJZHZ
+[submodule "2023-lab2-rtp-SJZHZ"]
+	path = 2023-lab2-rtp-SJZHZ
+	url = git@github.com:N2Sys-EDU/2023-lab2-rtp-SJZHZ.git
