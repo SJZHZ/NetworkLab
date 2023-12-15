@@ -33,7 +33,7 @@
         - Sender: lb & ub & flags
         - Receiver: seq_num & flags
 7. 细节
-    - 检查流程：最先检查length是否合理。有可能一个损坏的包拥有错误的length，作checksum检查将导致访存越界（段错误）
+    - 检查流程：总是先检查length是否合理。有可能一个损坏的包拥有错误的length，作checksum检查将导致访存越界（段错误）
     - 幂等性：计算checksum过程会破坏checksum，因此需要先存下来，计算后再写回
     - 缓冲区：使用malloc分配在堆上，以应对HUGE_WINDOW。直接在栈上分配会爆内存。
     - 释放资源：文件结束fclose，套接字结束close，缓冲区结束free

@@ -12,6 +12,8 @@ by SJZHZ
     Public
         2023
             lab0.md
+            lab1.md
+            lab2.md
         2022
             git.md
             lab1.md
@@ -25,7 +27,7 @@ by SJZHZ
         lab0-introduction-SJZHZ: CMake & Git
         lab1-myftp-SJZHZ: TCP & Epoll
         lab2-rtp-SJZHZ: UDP
-        lab3
+        lab3-router-SJZHZ: router
         lab4
     ```
 - tree
@@ -37,7 +39,9 @@ by SJZHZ
     |   |   |-- git.md
     |   |   `-- lab1.md
     |   `-- 2023
-    |       `-- lab0.md
+    |       |-- lab0.md
+    |       |-- lab1.md
+    |       `-- lab2.md
     |-- README.md
     |-- lab0-introduction-SJZHZ
     |-- lab1-myftp-SJZHZ
