@@ -40,6 +40,7 @@
     void FastSwitch::AgingMac();
     ```
 4. 处理内核
+    > 合理的模块化
     ```cc
     int HandleData(int inPort, char* framePtr);
     int HandleControl(int inPort, char* framePtr);
@@ -57,7 +58,11 @@
     - 二者虽然长度相同，但比较运算符并不会直接比较，而是会将它们扩展到int下比较。
     - 因此会造成二进制表示相同而比较运算不同的情况，比如有符号可以扩展成负数，而无符号数则总是扩展为正数。
     - 需要通过显式的强制转换来解决。
-
+4. map & unordered_map
+    - 查询时最好使用find而非[]，更健壮。
+    - 插入时使用pair<,>包装Key-Value对。
+    - 遍历时使用迭代器。
+    - 删除时不要直接删除所在迭代器！因为每次删除都会改动容器，遍历的迭代过程不是静态的。要么使用内置的遍历删除方法，要么使用临时迭代器来删除。
 ## Copilot
 > 狂按Tab就完事了！
 > 
