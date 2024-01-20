@@ -14,14 +14,19 @@ by SJZHZ
             lab0.md
             lab1.md
             lab2.md
+            lab4.md
         2022
             git.md
             lab1.md
     ```
-- submodule(Private)
+- submodule (private)
     ```txt
     2023
         2023-lab0-introduction-SJZHZ: CMake & Git
+        2023-lab1-myftp-SJZHZ: TCP & Epoll
+        2023-lab2-rtp-SJZHZ: UDP & Sliding Window
+        2023-lab3-router-SJZHZ: DV & IP Table
+        2023-lab4-switch-SJZHZ: Framing & MAC Table
 
     2022
         lab0-introduction-SJZHZ: CMake & Git
@@ -30,7 +35,7 @@ by SJZHZ
         lab3-router-SJZHZ: router
         lab4-switch-SJZHZ: switch
     ```
-- tree
+- tree -L 1
     ```txt
     .
     |-- 2023-lab0-introduction-SJZHZ
@@ -39,14 +44,9 @@ by SJZHZ
     |-- 2023-lab3-router-SJZHZ
     |-- 2023-lab4-switch-SJZHZ
     |-- Public
-    |   |-- 2022
-    |   |   |-- git.md
-    |   |   `-- lab1.md
-    |   `-- 2023
-    |       |-- lab0.md
-    |       |-- lab1.md
-    |       |-- lab2.md
-    |       `-- lab4.md
-    `-- README.md
+    |-- README.md
+    |-- lab0-introduction-SJZHZ
+    |-- lab1-myftp-SJZHZ
+    `-- lab2-rtp-SJZHZ
     ```
 ![image](https://i0.hdslb.com/bfs/album/e5a43a4817c3de8bbf770ea5cab1e988f8ae9fa5.gif@1437w.webp)
