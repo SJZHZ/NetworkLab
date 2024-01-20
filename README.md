@@ -49,4 +49,10 @@ by SJZHZ
     |-- lab1-myftp-SJZHZ
     `-- lab2-rtp-SJZHZ
     ```
+## 备注
+- Lab3 由于期末原因未能及时完成，将在假期空闲补上
+- 鉴于GitHub经常被DNS污染，建议在/etc/hosts下自己配置GitHub的IP
+```txt
+140.82.113.3 github.com
+```
 ![image](https://i0.hdslb.com/bfs/album/e5a43a4817c3de8bbf770ea5cab1e988f8ae9fa5.gif@1437w.webp)
