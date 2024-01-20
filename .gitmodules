@@ -19,3 +19,6 @@
 [submodule "2023-lab3-router-SJZHZ"]
 	path = 2023-lab3-router-SJZHZ
 	url = git@github.com:N2Sys-EDU/2023-lab3-router-SJZHZ.git
+[submodule "2023-lab4-switch-SJZHZ"]
+	path = 2023-lab4-switch-SJZHZ
+	url = https://github.com/N2Sys-EDU/2023-lab4-switch-SJZHZ.git
