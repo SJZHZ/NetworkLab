@@ -50,7 +50,7 @@ by SJZHZ
     `-- lab2-rtp-SJZHZ
     ```
 ## 备注
-- Lab3 由于期末原因未能及时完成，将在假期空闲补上
+- Lab3 由于期末原因未能及时完成 ~~，将在假期空闲补上~~
 - 鉴于GitHub经常被DNS污染，建议在/etc/hosts下自己配置GitHub的IP
 ```txt
 140.82.113.3 github.com
